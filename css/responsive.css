@@ -1,0 +1,446 @@
+@media (min-width: 1400px){
+  .footer-section .icon-list ul {
+    margin: 0 350px !important;
+  }
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    /* Header Section */
+    .navbar-toggler {
+      background-color: #ffffff !important;
+    }
+    /* Banner Section */
+    .banner-left {
+      height: 50vh !important;
+    }
+    .banner-right {
+      height: 50vh !important;
+    }
+    .card {
+      margin-left: 0 !important;
+      margin: 0px 178px !important;
+    }
+    /* Socail-icon Section */
+    .social-icon .icon-list ul {
+      padding: 0 !important;
+      margin-left: 50px !important;
+    }
+    .social-icon .icon-list a {
+      font-size: 30px !important;
+    }
+    /* Feature Section */
+    .tab ul {
+      display: flex !important;
+    }
+    .tab ul li {
+      margin: 0 20px !important;
+    }
+    .tab-1 {
+      border-radius: 5px 0px 0 5px !important;
+    }
+    .tab-3 {
+      border-radius: 0 5px 5px 0px !important;
+    }
+    .f1-img img {
+      margin: 0 177px !important;
+      margin-top: 30px !important;
+    }
+    .f-item {
+      margin-top: 25px !important;
+    }
+    /* Feature-left Section */
+    .f-l-img {
+      text-align: center !important;
+    }
+    .f-text img {
+      margin-left: 0 !important;
+      margin-bottom: 15px !important;
+    }
+    .feature-right img {
+      margin-left: 0 !important;
+    }
+    .f-l-text h2 {
+      font-size: 26px !important;
+    }
+    /* Feature-right Section */
+    .feature-right .row{
+      flex-direction: column-reverse !important;
+    }
+    /* Testimonial Section */
+    .t-text {
+      display: inline-block !important;
+      width: 50% !important;
+    }
+    .t-text::after{
+      content: '' !important;
+      position: absolute !important;
+      bottom: 0 !important;
+      left: 0 !important;
+      top: 0 !important;
+      right: 0 !important;
+      width: 0 !important;
+      height: 0 !important;
+      border-style: solid !important;
+      border-width: 20px 0 20px 20px !important;
+      border-color: transparent transparent transparent #f5f5f5 !important;
+    }
+    .row .t-bio {
+      display: inline-block !important;
+      margin-left: 95px !important;
+      text-align: center !important;
+    }
+    /* Pricing Section */
+    .pricing-section {
+      padding: 70px 0 !important;
+    }
+    .price-item:hover {
+      transform: translateY(0px) !important;
+    }
+    .price-item {
+      margin: 25px 111px !important;
+    }
+    /* Footer Section */
+    .footer-section .icon-list ul {
+      margin: 0 84px !important;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    /* Social-icon Section */
+    .social-icon .icon-list li {
+      margin-left: 46px !important;
+    }
+    .social-icon .icon-list a {
+      font-size: 36px !important;
+    }
+    /* Feature-left Section */
+    .feature-right img {
+      margin-left: 0 !important;
+    }
+    /* Pricing Section */
+    .footer-section .icon-list ul{
+      justify-content: revert !important;
+      margin: 0 192px !important;
+      margin-left: 184px !important;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    /* Banner Section */
+    .navbar-toggler {
+      background-color: #ffffff !important;
+    }
+    .banner-section {
+      height: auto !important;
+    }
+    .banner-left h1 {
+      font-size: 30px !important;
+    }
+    .banner-right {
+      height: 70vh !important;
+    }
+    .card {
+      border: none;
+      margin: 0 105px !important;
+    }
+    .card-body {
+      padding: 13px 25px !important;
+    }
+    .banner-right input {
+      margin-bottom: 18px !important;
+      font-size: 14px !important;
+      padding: 8px !important;
+    }
+    .social-icon .icon-list li {
+      margin: 0 17px !important;
+    }
+    .social-icon .icon-list a {
+      font-size: 35px !important;
+    }
+    /* Feature 01 */
+    .tab ul{
+      display: flex !important;
+      justify-content: space-between !important;
+    }
+    .tab ul li {
+      margin-left: 34px !important;
+    }
+    .tab-1 {
+      border-radius: 5px 0px 0 5px !important;
+    }
+    .tab-3 {
+      border-radius: 0 5px 5px 0px !important;
+    }
+    /* Feature-left */
+    .f-item {
+      margin-top: 25px !important;
+    }
+    .f1-img {
+      margin-top: 30px !important;
+      text-align: center !important;
+    }
+    .f-text img {
+      margin-left: 0 !important;
+      width: 50px !important;
+      margin-bottom: 20px !important;
+    }
+    /* Feature-right */
+    .feature-right .row{
+      flex-direction: column-reverse !important;
+    }
+    .feature-right img {
+      margin-left: 0px !important;
+    }
+    /* Our-process Section */
+    .op-item img {
+      width: 60px !important;
+    }
+    /* Pricing Section */
+    .pricing-section {
+      padding: 70px 0 !important;
+    }
+    .price-item:hover {
+      transform: translateY(0) !important;
+    }
+    .price-item {
+      margin-bottom: 25px !important;
+    }
+    /* Testimonila Section */
+    .testimonial-section {
+      padding: 70px 0 !important;
+    }
+    .t-bio h3 {
+      margin-left: 15px !important;
+    }
+    .t-bio p {
+      margin-left: 15px !important;
+    }
+    /* Footer Section */
+    .footer-section .icon-list ul {
+      margin-left: 0 !important;
+      justify-content: space-between !important; 
+      padding-left: 0 !important;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /* Header Section */
+    /* Banner left */
+    
+    .banner-section {
+      height: auto !important;
+    }
+    .navbar-toggler {
+      background-color: #ffffff !important;
+    }
+    .banner-left {
+      text-align: center  !important;
+      height: 70vh !important;
+    }
+    .banner-left .banner-link{
+      margin: 30px auto;
+    }
+    .banner-left h1 {
+      font-size: 26px !important;
+    }
+    .banner-left p {
+      font-size: 14px !important;
+    }
+    /* Banner right */
+    .card{
+      margin: 0 20px;
+    }
+    .banner-right{
+      height: 65vh !important;
+    }
+    .card{
+      margin: 0 20px !important;
+    }
+    .banner-right h2 {
+      font-size: 18px !important;
+    }
+    .banner-right input {
+      margin-bottom: 16px !important;
+      font-size: 16px !important;
+    }
+    .card-body {
+      padding: 10px 20px !important;
+    }
+    /* Social Icon */
+    .social-icon {
+      text-align: center;
+    }
+    .social-icon h1 {
+      font-size: 18px !important;
+    }
+    .social-icon p {
+      font-size: 12px !important;
+    }
+    .social-icon .icon-list li {
+      margin-left: 0 !important;
+    }
+    .social-icon .icon-list ul{
+      justify-content: space-between !important;
+    }
+    .social-icon .icon-list a{
+      font-size: 23px !important;
+    }
+    /* Feature 01 */
+    .feature-01 {
+      padding: 50px 0;
+    }
+    .tab {
+      padding: 20px 0;
+    }
+    .tab ul {
+      display: flex;
+      justify-content: space-evenly ;
+    }
+    .tab ul li {
+      height: 100px !important;
+      width: 100px !important;
+      line-height: 100px !important;
+    }
+    .tab-1 {
+      border-radius: 5px 0px 0 5px !important;
+    }
+    .tab-3 {
+      border-radius: 0px 5px 5px 0px !important;
+    }
+    .f-item {
+      width: 95% !important;
+      text-align: center;
+      margin: 25px auto;
+    }
+    .f-item h1{
+      font-size: 18px !important;
+    }
+    .f-item .c-btn {
+      border-radius: 5px !important;
+    }
+    .f1-img img {
+      margin: 0 13px !important;
+    }
+    /* Feature-left */
+    .f-l-text {
+      text-align: center;
+    }
+    .f-l-text .yellow-line {
+      margin: 30px auto !important;
+    }
+    .f-text img {
+      margin-left: 0 !important;
+      margin-bottom: 10px !important;
+    }
+    .feature-right .w-75 {
+      width: 100% !important;
+    }
+    .feature-right img {
+      margin-left: 0 !important;
+    }
+    .feature-right .row{
+      flex-direction: column-reverse !important;
+    }
+    /* Our Process Section */
+    .our-title h1 {
+      font-size: 26px !important;
+    }
+    .our-title p {
+      font-size: 12px !important;
+    }
+    .op-item {
+      width: 95% !important;
+    }
+    .op-item img {
+      width: 50px !important;
+    }
+    /*  Pricing Section  */
+    .pricing-section {
+      padding: 60px 0 !important;
+      height: auto !important;
+    }
+    .price-item:hover {
+      transform: translateY(0) !important;
+    }
+    .price-item {
+      margin-bottom: 35px !important;
+    }
+    .p-body h1 {
+      font-size: 68px !important;
+    }
+    .p-body h1 span {
+      font-size: 24px !important;
+    }
+    .p-body p {
+      font-size: 12px !important;
+    }
+    .t-text::after {
+      left: 42% !important;
+    }
+    .row.t-bio {
+      text-align: center !important;
+    }
+    .t-bio img {
+      margin-left: 0px !important;
+    }
+    /* Footer Section */
+    .footer-section .icon-list ul {
+      margin: 0 auto !important;
+    }
+    .footer-section .icon-list li {
+      margin-left: 20px !important;
+    }
+    .c-btn{
+      font-size: 16px !important;
+      padding: 8px 14px !important;
+    }
+  }
